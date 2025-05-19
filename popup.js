@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", async () => {
   const outputDiv = document.getElementById("output");
   const API_KEY = 'AIzaSyAtg0obuASyF9jLtJmj2mvSeJLAf6izY8w';  
-  const API_URL = 'localhost:5000/';
+  const API_URL = 'http://localhost:5000/';
 
   // Get the current tab's URL
   chrome.tabs.query({ active: true, currentWindow: true }, async (tabs) => {
